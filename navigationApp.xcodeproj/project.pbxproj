@@ -13,6 +13,13 @@
 		CE6BBDB528FB16BC00C17BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6BBDB328FB16BC00C17BD7 /* Main.storyboard */; };
 		CE6BBDB728FB16BE00C17BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6BBDB628FB16BE00C17BD7 /* Assets.xcassets */; };
 		CE6BBDBA28FB16BE00C17BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6BBDB828FB16BE00C17BD7 /* LaunchScreen.storyboard */; };
+		CE6BBDC228FB1ACC00C17BD7 /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDC128FB1ACC00C17BD7 /* GreenVC.swift */; };
+		CE6BBDC428FB1AE100C17BD7 /* OrangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDC328FB1AE100C17BD7 /* OrangeVC.swift */; };
+		CE6BBDC628FB1AEF00C17BD7 /* MintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDC528FB1AEF00C17BD7 /* MintVC.swift */; };
+		CE6BBDC828FB1B0000C17BD7 /* RedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDC728FB1B0000C17BD7 /* RedVC.swift */; };
+		CE6BBDCA28FB1B0B00C17BD7 /* YellowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDC928FB1B0B00C17BD7 /* YellowVC.swift */; };
+		CE6BBDCC28FB1B1B00C17BD7 /* PurpleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDCB28FB1B1B00C17BD7 /* PurpleVC.swift */; };
+		CE6BBDCE28FB20C500C17BD7 /* ColorTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BBDCD28FB20C500C17BD7 /* ColorTabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		CE6BBDB628FB16BE00C17BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6BBDB928FB16BE00C17BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6BBDBB28FB16BE00C17BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6BBDC128FB1ACC00C17BD7 /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		CE6BBDC328FB1AE100C17BD7 /* OrangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeVC.swift; sourceTree = "<group>"; };
+		CE6BBDC528FB1AEF00C17BD7 /* MintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintVC.swift; sourceTree = "<group>"; };
+		CE6BBDC728FB1B0000C17BD7 /* RedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedVC.swift; sourceTree = "<group>"; };
+		CE6BBDC928FB1B0B00C17BD7 /* YellowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowVC.swift; sourceTree = "<group>"; };
+		CE6BBDCB28FB1B1B00C17BD7 /* PurpleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleVC.swift; sourceTree = "<group>"; };
+		CE6BBDCD28FB20C500C17BD7 /* ColorTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				CE6BBDB628FB16BE00C17BD7 /* Assets.xcassets */,
 				CE6BBDB828FB16BE00C17BD7 /* LaunchScreen.storyboard */,
 				CE6BBDBB28FB16BE00C17BD7 /* Info.plist */,
+				CE6BBDC128FB1ACC00C17BD7 /* GreenVC.swift */,
+				CE6BBDC328FB1AE100C17BD7 /* OrangeVC.swift */,
+				CE6BBDC528FB1AEF00C17BD7 /* MintVC.swift */,
+				CE6BBDC728FB1B0000C17BD7 /* RedVC.swift */,
+				CE6BBDC928FB1B0B00C17BD7 /* YellowVC.swift */,
+				CE6BBDCB28FB1B1B00C17BD7 /* PurpleVC.swift */,
+				CE6BBDCD28FB20C500C17BD7 /* ColorTabBarVC.swift */,
 			);
 			path = navigationApp;
 			sourceTree = "<group>";
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6BBDC628FB1AEF00C17BD7 /* MintVC.swift in Sources */,
 				CE6BBDB228FB16BC00C17BD7 /* ViewController.swift in Sources */,
 				CE6BBDAE28FB16BC00C17BD7 /* AppDelegate.swift in Sources */,
+				CE6BBDC428FB1AE100C17BD7 /* OrangeVC.swift in Sources */,
+				CE6BBDC828FB1B0000C17BD7 /* RedVC.swift in Sources */,
+				CE6BBDCC28FB1B1B00C17BD7 /* PurpleVC.swift in Sources */,
+				CE6BBDC228FB1ACC00C17BD7 /* GreenVC.swift in Sources */,
+				CE6BBDCA28FB1B0B00C17BD7 /* YellowVC.swift in Sources */,
+				CE6BBDCE28FB20C500C17BD7 /* ColorTabBarVC.swift in Sources */,
 				CE6BBDB028FB16BC00C17BD7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
